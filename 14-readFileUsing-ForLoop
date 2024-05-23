@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#read name.txt file using For loop
+
+
+#store location of file
+file=/home/naive/myscript/name.txt
+
+#using cat command for read the file 
+for name in $(cat $file)
+do
+    echo $name
+done
+ 

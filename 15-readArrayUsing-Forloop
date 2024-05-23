@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#print the all variable of array using for Loop
+
+arr=( 1 2 85 92 125 "kr\$na" 8215 )
+
+length=${#arr[*]}
+
+for((i=0; i<length; i++))
+do  
+     echo "arr[$i] = ${arr[$i]}"
+done
+

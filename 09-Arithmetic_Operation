@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#declare Variable
+x=10
+y=12
+
+#using "let" key for perform any arithmetic operation in variable without "let" keyword interperter consider  its a String not be Arithmetic Operation 
+let sum=$x+$y
+
+#print the sum 
+echo "sum is $sum"
+
+#use " $(()) " for perform Arithmetic operation in echo command else interpreter consider as a String
+echo "Multiplication of 3*9 is $(($x*$y))"
+
